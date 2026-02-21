@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  /* Cinematic Deep Dark Space */
+  --background: #0a0f1d;
+  --foreground: #f8fafc;
+  
+  /* Map Land and Borders */
+  --map-land: #131b2f;
+  --map-border: #1f2940;
+
+  /* Neon Glow Accent (Cyan) */
+  --accent: #00f0ff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden; /* Prevent scrolling during cinematic sequence */
+}
