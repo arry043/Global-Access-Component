@@ -23,7 +23,7 @@ const MapWidget: React.FC = () => {
   const [highlightedCountries, setHighlightedCountries] = useState<string[]>(['IND']);
   
   const containerRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(containerRef, { once: true, amount: 0.3 }); // जब सेक्शन 30% दिखेगा तब एनिमेशन शुरू होगा
+  const isInView = useInView(containerRef, { once: true, amount: 0.3 }); // When connection is visible only 30%
 
   const mapControls = useAnimation();
   const line1Controls = useAnimation();
