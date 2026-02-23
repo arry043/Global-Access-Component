@@ -19,7 +19,7 @@ const AnimatedArcs: React.FC<AnimatedArcsProps> = ({ start, end1, end2, projecti
     const sequence = async () => {
       // Endless loop
       while (true) {
-        // Reset all
+        
         await controls.set({ pathLength: 0, opacity: 1 });
         await controls.set("hidden");
 
